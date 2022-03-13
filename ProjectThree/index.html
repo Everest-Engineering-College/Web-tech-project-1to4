@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Project Third</title>
+    <style>
+        table
+        {  margin:auto;
+            border-collapse: collapse;
+            border:2px solid black;
+        }
+        th,td{
+            border:2px solid black;
+            
+        }
+        td{
+            padding:5px
+        }
+    </style>
+</head>
+
+<body bgcolor="tomato">
+     <p><strong>Objective:</strong>To design registration form with in the table and mapping image </p>
+     <table>
+         <form>
+
+        
+         <tr>
+             <th colspan="2">Create New Account</th>
+         </tr>
+         <tr>
+             <td> <label for="fname">Name:</label></td>
+             <td> <input type="text" name="fname"></td>
+         </tr>
+         <tr>
+            <td> <label for="fname">Username:</label></td>
+            <td> <input type="text" name="username"></td>
+         </tr>
+         <tr>
+            <td> <label for="fname">Address:</label></td>
+            <td> <input type="text" name="fname"></td>
+         </tr>
+         <tr>
+             <td>Gender:</td>
+             <td>
+                <input type="radio" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" >
+                <label for="male">Female</label>
+
+                <input type="radio" name="gender" value="other" >
+                <label for="male">Other</label>
+
+            </td>
+         </tr>
+         <tr>
+             <td>
+                 Subjects:
+             </td>
+             <td>
+                <input type="checkbox" name="maths" value = "maths" checked>
+                <label for="maths">Maths</label>
+               
+                <input type="checkbox" name="cprogram" value = "cprogram" >
+                <label for="c">C-Program</label>
+                
+                <input type="checkbox" name="cpp" value = "cpp" >
+                <label for="cpp">C++</label>
+             </td>
+             
+         </tr>
+         <tr>
+            <td>
+                <label for="pwd">Password:</label>
+            </td> 
+            <td>
+               
+                 <input type="password" id="pwd" name="pwd">
+            </td>
+         </tr>
+         <tr>
+             <td>
+                  Confirm Password:
+             </td>
+             <td>
+                <input type="password" id="pwd" name="pwd">
+             </td>
+            
+         </tr>
+         <tr>
+             <th colspan = "2"><button type="submit" value="Submit">Submit</button></th>
+             
+         </tr>
+
+        </form>
+     </table>
+     <p>Image map is to define map with clickable areas. Following image is used as image map.</p>
+     <img src="workspace.jpg" alt="Workspace" usemap="#workspace"style = "width:500px;height:333px;">
+     <map name="workspace">
+     <area shape="rect" coords="171,146,217,210"  alt = "I love Caffeine"href="Coffee.html">
+     <area shape="poly" coords="40,83,78,161,114,233,281,232,301,330,78,331,3,213,1,114"  alt = "I love Caffeine"href="laptop.html">
+     <area shape="rect" coords="252,168,393,209"  alt = "I love Caffeine"href="PenandCopy.html">
+     <area shape="poly" coords="339,271,347,245,465,276,456,209,390,290"  alt = "I love Caffeine"href="SmartPhone.html">
+    
+    </map>
+</body>
+</html>
