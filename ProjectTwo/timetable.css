@@ -1,0 +1,32 @@
+body{
+     background-image:linear-gradient(to left ,rgb(51, 255, 51),rgb(217, 255, 217));
+    
+  
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+table,th,td
+{
+    width:1000px;
+    height: 35px;
+    border:2px solid black;
+    margin:50px auto;
+    border-collapse: collapse;  
+}
+th {  
+    padding:10px;  
+    /* padding-left: 50px; */
+  }
+  td{
+      padding:10px;
+    padding-left: 80px;
+  }
+  .gotohome
+  {
+      position: absolute;
+      bottom: 0; left: 0; width: 100%; text-align: left;
+      text-decoration: none;
+  }

@@ -1,0 +1,23 @@
+body
+{
+    background-image: linear-gradient(100deg ,rgb(204, 153, 255) , rgb(255,255,255));
+    
+}
+table,td,th
+{
+    width:33%;
+    border :2px solid black;
+    margin:auto;
+}
+img{
+    width:320px;
+    height: 170px;
+}
+.technical-heading
+{
+    padding-bottom:50px;
+}
+a{/* for table and iframes */
+    text-decoration: none;
+    color:blue
+}
